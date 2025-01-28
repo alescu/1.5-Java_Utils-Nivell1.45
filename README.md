@@ -17,19 +17,18 @@ Instal·lació:
 	Cal instalar Java 22 o superior.
 	
 Execució
-    Descarregar el projecte.
-	Compilar el projecte, des de el directori on s'ha descarregar o clonat. 
+    Descarregar o clonar el projecte a la propia màquina.
+	Compilar el projecte, des de el directori on s'ha descarregar o clonat. Per exemple:
+		
 		javac 1.5-Java_Utils-Nivell1.1\src\main\java\* -d 1.5-Java_Utils-Nivell1.1\target\classes
 		
-		El primer path és on ha de cercar el compilador les classes, el segon, darrera el parametre -d,
-		és on guardara el fitxers compilats.
+		(El primer path és on ha de cercar el compilador les classes, el segon, darrera el parametre -d,
+		és on guardara el fitxers compilats.)
 		
-		S'ha d'executar el Main compilat en la darrera carpeta.
+		S'ha d'executar el Main compilat i passar com a paràmetre el fitxer txt que volem llegir.
 		
-			Exemple java Main C:\Users\formacio\Documents\lorem.txt
-		
-		També es pot compilar en el mateix directori dels .java
-		
+			Exemple: java Main ..\lorem.txt
+	
 	
 Desplegament:
     Cal desplegar els compilats en el lloc determinat.

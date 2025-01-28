@@ -33,7 +33,6 @@ public class Main {
 
             UtilsObjecte.serialitzarObjecte(arrayEntersPrimitius, "provaAmbArrayDeInt.ser" );
 
-
             System.out.println("\nDeserialitzant els arxius creats .....");
             File fitxer_1 = new File("provaAmbStr.ser");
             System.out.println((String) UtilsObjecte.deserialitzarObjecte(fitxer_1));
